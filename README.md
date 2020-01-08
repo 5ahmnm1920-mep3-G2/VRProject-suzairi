@@ -3,11 +3,15 @@
 ### Project description: 
 Introduction/Project summary 
 
+#### Controls:
+
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
++ Windows 10 64 Bit
++ Unity 2019.1.14f1
++ Visual Studio
 
 ### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
++ Oculus Rift
 
 ### Visuals: 
 Screenshots (concept and experience), Video
