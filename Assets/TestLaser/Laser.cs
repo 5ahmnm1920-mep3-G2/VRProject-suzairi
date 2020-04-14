@@ -2,25 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Laser : MonoBehaviour
-{
+public class Laser : MonoBehaviour {
 	private LineRenderer lr;
-    // Start is called before the first frame update
-    void Start()
-    {
+ 
+    void Start() {
+
 	lr = GetComponent<LineRenderer>();
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void Update() {
+
         lr.SetPosition(0,transform.position);
 	RaycastHit hit;
-	if (Physics.Raycast(transform.position, transform.forward, out hit))
-	{
-		if (hit.collider)
-		{
+	if (Physics.Raycast(transform.position, transform.forward, out hit)) {
+
+		if (hit.collider) {
+
 			lr.SetPosition(1, hit.point);
     }
 	}
